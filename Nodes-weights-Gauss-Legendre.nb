@@ -1,0 +1,120 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3430,        110]
+NotebookOptionsPosition[      3045,         91]
+NotebookOutlinePosition[      3391,        106]
+CellTagsIndexPosition[      3348,        103]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+ StyleBox[" ",
+  FontSize->24],
+ StyleBox["Gauss Legendre quadrature nodes and weights",
+  FontSize->24,
+  FontVariations->{"Underline"->True}],
+ StyleBox["  ",
+  FontSize->24]
+}], "Title",
+ CellChangeTimes->{{3.758887069724594*^9, 3.7588870960070972`*^9}, {
+  3.758982586994069*^9, 3.7589825980557013`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"Needs", "[", "\"\<NumericalDifferentialEquationAnalysis`\>\"", 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Style", "[", 
+  RowBox[{
+   RowBox[{"GaussianQuadratureWeights", "[", 
+    RowBox[{"8", ",", 
+     RowBox[{"-", "1"}], ",", "1"}], "]"}], ",", 
+   RowBox[{"PrintPrecision", "\[Rule]", "12"}]}], "]"}], "\n"}], "Input",
+ CellChangeTimes->{{3.758835656550435*^9, 3.7588358013147154`*^9}, {
+  3.758836248313282*^9, 3.758836278064984*^9}, {3.758836309716794*^9, 
+  3.7588363238046*^9}, {3.7588386970993443`*^9, 3.758838812967972*^9}, {
+  3.7588388707252755`*^9, 3.758838890409401*^9}, {3.758886353506629*^9, 
+  3.758886387757588*^9}, {3.758886891154381*^9, 3.75888700303078*^9}, {
+  3.7589826125725317`*^9, 3.7589826586021643`*^9}}],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "0.9602898564975362`"}], ",", "0.10122853629037726`"}], 
+     "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "0.7966664774136267`"}], ",", "0.2223810344533743`"}], 
+     "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "0.525532409916329`"}], ",", "0.31370664587788694`"}], 
+     "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "0.1834346424956499`"}], ",", "0.36268378337836155`"}], 
+     "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"0.1834346424956499`", ",", "0.36268378337836155`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"0.525532409916329`", ",", "0.31370664587788694`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"0.7966664774136267`", ",", "0.2223810344533743`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"0.9602898564975362`", ",", "0.10122853629037726`"}], "}"}]}], 
+   "}"}],
+  StripOnInput->False,
+  PrintPrecision->12]], "Output",
+ CellChangeTimes->{{3.758835686623155*^9, 3.7588356980668097`*^9}, {
+   3.758835729316597*^9, 3.758835745675533*^9}, {3.758835780102502*^9, 
+   3.7588358023637753`*^9}, 3.7588362788040257`*^9, 3.7588363246556487`*^9, 
+   3.7588387995512047`*^9, {3.7588388760115776`*^9, 3.75883889248952*^9}, 
+   3.75898266079629*^9}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1350, 686},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (September 21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 324, 10, 74, "Title"],
+Cell[CellGroupData[{
+Cell[929, 36, 759, 14, 69, "Input"],
+Cell[1691, 52, 1326, 35, 83, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
