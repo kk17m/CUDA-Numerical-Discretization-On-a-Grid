@@ -23,11 +23,11 @@ The numerical discretization algorithm is develepod for two dimensional sufficie
 
 ### References
 
+* Hildebrand, F. B. Introduction to Numerical Analysis. New York: McGraw-Hill, pp. 323-325, 1956.
+
 * Atkinson, Kendall E. "A survey of numerical methods for solving nonlinear integral equations." The Journal of Integral Equations and Applications (1992): 15-46.
 
 * Atkinson, Kendall E., and Florian A. Potra. "Projection and iterated projection methods for nonlinear integral equations." SIAM journal on numerical analysis 24.6 (1987): 1352-1373.
-
-* Hildebrand, F. B. Introduction to Numerical Analysis. New York: McGraw-Hill, pp. 323-325, 1956.
 
 ## License & Copyright
 Licensed under the [MIT License](LICENSE)
