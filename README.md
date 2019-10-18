@@ -11,7 +11,7 @@ The numerical discretization algorithm is develepod for two dimensional sufficie
 
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kk17m/kk17m/CUDA-Numerical-Discretization-On-a-Grid/blob/master/Numerical_Discretization_GLQ.ipynb)
 
-* The nodes and weights are stored as list of lists using bidimensional arrays. The Legendre nodes (roots of the Legendre polynomials) in the interval (-1, 1) can be computed using mathematica nootbook [Nodes-weights-Gauss-Legendre.nb](Nodes-weights-Gauss-Legendre.nb). 
+* The nodes and weights are stored as list of lists using bidimensional arrays. The Legendre nodes (roots of the Legendre polynomials) in the interval (-1, 1) can be computed using mathematica nootbook [Nodes-weights-Gauss-Legendre.nb](Nodes-weights-Gauss-Legendre.nb) or other open source tools. 
 
 * The Thrust C++ tempelate libraries are used here for abstraction and performace.
 
